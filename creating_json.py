@@ -54,6 +54,6 @@ print(final_data)
 
 j=json.dumps(final_data,indent = 6)
 
-with open('Data to be stored into 1.json','w')as f:
+with open('Data to be stored into.json','w')as f:
 	f.write(j)
 	f.close()
