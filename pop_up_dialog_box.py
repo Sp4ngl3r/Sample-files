@@ -10,14 +10,14 @@ class Window_Manager_of_My_Operetion(bpy.types.Operator):
     location = bpy.props.FloatVectorProperty(name = "Location " , default = (0,0,0))
     number_of_walls = bpy.props.IntProperty(name = "Number of Walls : ")
     
-    wall_0_w = bpy.props.IntProperty(name = "Value for w of Wall 1 : ")
-    wall_0_r = bpy.props.IntProperty(name = "Value for r of Wall 1 : ")
-    wall_1_w = bpy.props.IntProperty(name = "Value for w of Wall 2 : ")
-    wall_1_r = bpy.props.IntProperty(name = "Value for r of Wall 2 : ")
-    wall_2_w = bpy.props.IntProperty(name = "Value for w of Wall 3 : ")
-    wall_2_r = bpy.props.IntProperty(name = "Value for r of Wall 3 : ")
-    wall_3_w = bpy.props.IntProperty(name = "Value for w of Wall 4 : ")
-    wall_3_r = bpy.props.IntProperty(name = "Value for r of Wall 4 : ")       
+    wall_0_w = bpy.props.StringProperty(name = "Value for w of Wall 1 : ")
+    wall_0_r = bpy.props.StringProperty(name = "Value for r of Wall 1 : ")
+    wall_1_w = bpy.props.StringProperty(name = "Value for w of Wall 2 : ")
+    wall_1_r = bpy.props.StringProperty(name = "Value for r of Wall 2 : ")
+    wall_2_w = bpy.props.StringProperty(name = "Value for w of Wall 3 : ")
+    wall_2_r = bpy.props.StringProperty(name = "Value for r of Wall 3 : ")
+    wall_3_w = bpy.props.StringProperty(name = "Value for w of Wall 4 : ")
+    wall_3_r = bpy.props.StringProperty(name = "Value for r of Wall 4 : ")       
         
         
     def execute(self, context):
